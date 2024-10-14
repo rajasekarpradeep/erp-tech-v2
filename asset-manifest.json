@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/erp-tech-v2/static/css/main.040834e3.chunk.css",
+    "main.js": "/erp-tech-v2/static/js/main.d09f0ebf.chunk.js",
+    "main.js.map": "/erp-tech-v2/static/js/main.d09f0ebf.chunk.js.map",
+    "runtime-main.js": "/erp-tech-v2/static/js/runtime-main.4e729cd2.js",
+    "runtime-main.js.map": "/erp-tech-v2/static/js/runtime-main.4e729cd2.js.map",
+    "static/css/2.b07c518c.chunk.css": "/erp-tech-v2/static/css/2.b07c518c.chunk.css",
+    "static/js/2.a8b411c5.chunk.js": "/erp-tech-v2/static/js/2.a8b411c5.chunk.js",
+    "static/js/2.a8b411c5.chunk.js.map": "/erp-tech-v2/static/js/2.a8b411c5.chunk.js.map",
+    "static/js/3.ff94f59b.chunk.js": "/erp-tech-v2/static/js/3.ff94f59b.chunk.js",
+    "static/js/3.ff94f59b.chunk.js.map": "/erp-tech-v2/static/js/3.ff94f59b.chunk.js.map",
+    "index.html": "/erp-tech-v2/index.html",
+    "static/css/2.b07c518c.chunk.css.map": "/erp-tech-v2/static/css/2.b07c518c.chunk.css.map",
+    "static/css/main.040834e3.chunk.css.map": "/erp-tech-v2/static/css/main.040834e3.chunk.css.map",
+    "static/js/2.a8b411c5.chunk.js.LICENSE.txt": "/erp-tech-v2/static/js/2.a8b411c5.chunk.js.LICENSE.txt",
+    "static/media/cont-1.6a1237ac.jpg": "/erp-tech-v2/static/media/cont-1.6a1237ac.jpg",
+    "static/media/cont21.e1f2480c.jpg": "/erp-tech-v2/static/media/cont21.e1f2480c.jpg",
+    "static/media/cont3.2267aeef.jpg": "/erp-tech-v2/static/media/cont3.2267aeef.jpg",
+    "static/media/logo01.f0f3765f.svg": "/erp-tech-v2/static/media/logo01.f0f3765f.svg",
+    "static/media/logo02.ef3dc476.svg": "/erp-tech-v2/static/media/logo02.ef3dc476.svg",
+    "static/media/logo03.ed39a486.svg": "/erp-tech-v2/static/media/logo03.ed39a486.svg",
+    "static/media/logo04.d4601325.svg": "/erp-tech-v2/static/media/logo04.d4601325.svg",
+    "static/media/logo05.e583f97d.svg": "/erp-tech-v2/static/media/logo05.e583f97d.svg",
+    "static/media/logo06.7fcfefca.svg": "/erp-tech-v2/static/media/logo06.7fcfefca.svg",
+    "static/media/slick-theme.css": "/erp-tech-v2/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e729cd2.js",
+    "static/css/2.b07c518c.chunk.css",
+    "static/js/2.a8b411c5.chunk.js",
+    "static/css/main.040834e3.chunk.css",
+    "static/js/main.d09f0ebf.chunk.js"
+  ]
+}
