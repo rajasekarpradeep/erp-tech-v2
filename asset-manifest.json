@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/erp-tech-v2/static/css/main.040834e3.chunk.css",
-    "main.js": "/erp-tech-v2/static/js/main.6145e4f1.chunk.js",
-    "main.js.map": "/erp-tech-v2/static/js/main.6145e4f1.chunk.js.map",
+    "main.js": "/erp-tech-v2/static/js/main.8a7282ef.chunk.js",
+    "main.js.map": "/erp-tech-v2/static/js/main.8a7282ef.chunk.js.map",
     "runtime-main.js": "/erp-tech-v2/static/js/runtime-main.4e729cd2.js",
     "runtime-main.js.map": "/erp-tech-v2/static/js/runtime-main.4e729cd2.js.map",
     "static/css/2.b07c518c.chunk.css": "/erp-tech-v2/static/css/2.b07c518c.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.b07c518c.chunk.css.map": "/erp-tech-v2/static/css/2.b07c518c.chunk.css.map",
     "static/css/main.040834e3.chunk.css.map": "/erp-tech-v2/static/css/main.040834e3.chunk.css.map",
     "static/js/2.c0708f79.chunk.js.LICENSE.txt": "/erp-tech-v2/static/js/2.c0708f79.chunk.js.LICENSE.txt",
+    "static/media/about.1a2bef9a.png": "/erp-tech-v2/static/media/about.1a2bef9a.png",
     "static/media/cont-1.6a1237ac.jpg": "/erp-tech-v2/static/media/cont-1.6a1237ac.jpg",
     "static/media/cont21.e1f2480c.jpg": "/erp-tech-v2/static/media/cont21.e1f2480c.jpg",
     "static/media/cont3.2267aeef.jpg": "/erp-tech-v2/static/media/cont3.2267aeef.jpg",
@@ -32,6 +33,6 @@
     "static/css/2.b07c518c.chunk.css",
     "static/js/2.c0708f79.chunk.js",
     "static/css/main.040834e3.chunk.css",
-    "static/js/main.6145e4f1.chunk.js"
+    "static/js/main.8a7282ef.chunk.js"
   ]
 }
