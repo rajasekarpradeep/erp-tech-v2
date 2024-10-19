@@ -14,7 +14,7 @@ export default function Header() {
         <div>
           <h1 className="extraBold font60">Welcome to ERP Tech!</h1>
           <AnimattedText>Your Gateway to Learning!</AnimattedText>
-          <HeaderP className="font13 semiBold">
+          <HeaderP className="font15 semiBold">
           We’re thrilled to have you here! Whether you're looking to enhance your career, learn a new skill, or pursue a passion, 
           our platform offers a wide range of courses to help you achieve your goals.
           </HeaderP>
@@ -31,10 +31,10 @@ export default function Header() {
               <QuotesIcon />
             </QuotesWrapper>
             <div>
-              <p className="font15 whiteColor">
-                <em>Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.</em>
+              <p className="font25 whiteColor">
+                <em>Learning Tech, Shaping the Future</em>
               </p>
-              <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p>
+              {/* <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p> */}
             </div>
           </QuoteWrapper>
           <DotsWrapper>

@@ -24,7 +24,7 @@ export default function TopNavbar() {
     <>
       <Sidebar sidebarOpen={sidebarOpen} toggleSidebar={toggleSidebar} />
       {sidebarOpen && <Backdrop toggleSidebar={toggleSidebar} />}
-      <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
+      <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "100px" }}>
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
             <LogoIcon />
@@ -36,24 +36,34 @@ export default function TopNavbar() {
             <BurgerIcon />
           </BurderWrapper>
           <UlWrapper className="flexNullCenter">
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font18 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="home" spy={true} smooth={true} offset={-80}>
                 Home
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font18 pointer">
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="about" spy={true} smooth={true} offset={-80}>
+                About Us
+              </Link>
+            </li>
+            <li className="semiBold font18 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="services" spy={true} smooth={true} offset={-80}>
                 Services
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font18 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
                 Courses
               </Link>
             </li>
-            <li className="semiBold font15 pointer">
+            <li className="semiBold font18 pointer">
+              <Link activeClass="active" style={{ padding: "10px 15px" }} to="industries" spy={true} smooth={true} offset={-80}>
+                Industries
+              </Link>
+            </li>
+            <li className="semiBold font18 pointer">
               <Link activeClass="active" style={{ padding: "10px 15px" }} to="contact" spy={true} smooth={true} offset={-80}>
-                Contact
+                Contact Us
               </Link>
             </li>
           </UlWrapper>

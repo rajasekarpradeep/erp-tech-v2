@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 // Components
-import ClientSlider from "../Elements/ClientSlider";
-import ServiceBox from "../Elements/ServiceBox";
+// import ClientSlider from "../Elements/ClientSlider";
+// import ServiceBox from "../Elements/ServiceBox";
 import FullButton from "../Buttons/FullButton";
 // Assets
 import AddImage1 from "../../assets/img/add/1.png";
@@ -10,49 +10,255 @@ import AddImage2 from "../../assets/img/add/2.png";
 import AddImage3 from "../../assets/img/add/3.png";
 import AddImage4 from "../../assets/img/add/4.png";
 
+import ServiceImg1 from "../../assets/img/service1.jpg";
+import ServiceImg2 from "../../assets/img/service2.jpg";
+import ServiceImg3 from "../../assets/img/service3.jpg";
+import ServiceImg4 from "../../assets/img/service4.jpg";
+import ServiceImg5 from "../../assets/img/service5.jpg";
+import ServiceImg6 from "../../assets/img/service6.jpg";
+import ServiceImg7 from "../../assets/img/service7.jpg";
+import ServiceImg8 from "../../assets/img/service8.jpg";
+
+
 export default function Services() {
   return (
     <Wrapper id="services">
-      <div className="lightBg" style={{ padding: "50px 0" }}>
+      {/* <div className="lightBg" style={{ padding: "50px 0" }}>
         <div className="container">
-          <ClientSlider />
+          {/* <ClientSlider /> }
         </div>
-      </div>
-      <div className="whiteBg" style={{ padding: "60px 0" }}>
+      </div> */}
+      <div className="lightBg" style={{ padding: "60px 0" }}>
         <div className="container">
-          <HeaderInfo>
+          <HeaderInfo style={{ textAlign: 'center' }}>
             <h1 className="font40 extraBold">Our Awesome Services</h1>
             <p className="font13">
-            We are committed to delivering outstanding services tailored to meet your needs. With a focus on innovation, quality, and customer satisfaction, here’s what sets us apart:              <br />
+              We are committed to delivering outstanding services tailored to meet your needs. With a focus on innovation, quality, and customer satisfaction, here’s what sets us apart:              <br />
             </p>
           </HeaderInfo>
-          <ServiceBoxRow className="flex">
-            {/* <ServiceBoxWrapper>
-              <ServiceBox
-                icon="roller"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-              />
-            </ServiceBoxWrapper> */}
-            <ServiceBoxWrapper>
-              <ServiceBox
-                icon="monitor"
-                title="Web Development"
-                subtitle="Transform your ideas into a stunning, responsive website with our expert web development services. From design to deployment, we ensure your site is fast, secure, and optimized for a seamless user experience"
-              />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox
-                icon="browser"
-                title="IT CONSULTING"
-                subtitle="Get expert advice to optimize your technology strategy. Our IT consulting services help you identify the best solutions for your business needs, improve operational efficiency, and reduce costs."
-              />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox icon="printer" title="SAP" subtitle="Unlock the full potential of your business with our comprehensive SAP services. We provide tailored solutions to help you integrate, automate, and optimize your processes using SAP's world-class ERP (Enterprise Resource Planning) software." />
-            </ServiceBoxWrapper>
-          </ServiceBoxRow>
+          <CardWrapper>
+            <CardContainer>
+              <CardImg>
+                <img src={ServiceImg1} alt="#" />
+              </CardImg>
+              <div style={{ padding: '0px 10px 0px 10px' }}>
+                <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>S/4 HANA Implementation Project</h2>
+                <p className="font10 semiBold">SAP allows easy and global integration of business processes by creating an efficient work environment for the users thereby reducing the possibility of errors and redundant information. SAP has immense capabilities to deliver data-driven solutions for various operations, but SAP implementation demands a high-end accuracy and acuteness to yield maximum benefits.</p>
+                <BtnWrapper style={{ padding: '0px 10px 0px 10px' }}>
+                  <FullButton title="Read more" />
+                </BtnWrapper>
+              </div>
+            </CardContainer>
+
+            <CardContainer>
+              <CardImg>
+                <img src={ServiceImg2} alt="#" />
+              </CardImg>
+              <div style={{ padding: '0px 10px 0px 10px' }}>
+                <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>S/4 HANA Support Project</h2>
+                <p className="font10 semiBold">All Functional support activities (except new requirements) shall be carried out, Our SAP Application Functional Support Services Accountability finding in transaction.</p>
+                <br></br>
+                <div style={{ justifyContent: 'center' }}>
+                  <ul style={{ listStyle: 'disc' }}>
+                    <li>Finance & Controlling (FICO)</li>
+                    <li>Sales and Distribution (SD)</li>
+                    <li>Sales and Distribution (SD)</li>
+                    <li>Production Planning (PP)</li>
+                    <li>Quality Management (QM)</li>
+                    <li>Project Systems (PS)</li>
+                  </ul><br></br>
+                  <BtnWrapper style={{ padding: '0px 10px 0px 10px' }}>
+                    <FullButton title="Read more" />
+                  </BtnWrapper>
+                </div>
+
+              </div>
+            </CardContainer>
+
+            <CardContainer>
+              <CardImg>
+                <img src={ServiceImg3} alt="#" />
+              </CardImg>
+              <div style={{ padding: '0px 10px 0px 10px' }}>
+                <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>S/4 HANA Rollout Project</h2>
+                <p className="font10 semiBold">First, identify your requirements, such as business process, integration flow, and testing scenarios, and then analyze the impact those requirements will have on your organization. For example, when you plan to release a certain global standard in your organization’s financial reporting, each unit may have to create a specific financial transaction/process in SAP to meet that standard requirement. In this case, you’ll need to be aware that there are regions</p>
+                <br></br>
+                <BtnWrapper style={{ padding: '0px 10px 0px 10px' }}>
+                  <FullButton title="Read more" />
+                </BtnWrapper>
+              </div>
+            </CardContainer>
+          </CardWrapper>
         </div>
+
+        <div className="lightBg">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg1} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>The Intelligent Enterprise</h2>
+                      <p className="font10 semiBold">An intelligent, sustainable enterprise is one that consistently applies advanced technologies and best practices within agile, integrated business processes. Run at your best with FX Consultancy that can help you grow more robust, more profitable, and more justifiable.</p>
+                      <br></br>
+                      
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg2} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>Cloud ERP</h2>
+                      <p className="font10 semiBold">Cloud ERP is enterprise resource planning software that is accessible over the Internet. Organizations worldwide use cloud/on-premises ERP to integrate the core business processes needed to run a company in a single instance.</p>
+                      <br></br>
+                      
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div className="lightBg">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg4} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>The Intelligent Enterprise</h2>
+                      <p className="font10 semiBold">An intelligent, sustainable enterprise is one that consistently applies advanced technologies and best practices within agile, integrated business processes. Run at your best with FX Consultancy that can help you grow more robust, more profitable, and more justifiable.</p>
+                      <br></br>
+                     
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg5} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>Cloud ERP</h2>
+                      <p className="font10 semiBold">Cloud ERP is enterprise resource planning software that is accessible over the Internet. Organizations worldwide use cloud/on-premises ERP to integrate the core business processes needed to run a company in a single instance.</p>
+                      <br></br>
+                     
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="lightBg">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg6} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>The Intelligent Enterprise</h2>
+                      <p className="font10 semiBold">An intelligent, sustainable enterprise is one that consistently applies advanced technologies and best practices within agile, integrated business processes. Run at your best with FX Consultancy that can help you grow more robust, more profitable, and more justifiable.</p>
+                      <br></br>
+                      
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg3} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>Cloud ERP</h2>
+                      <p className="font10 semiBold">Cloud ERP is enterprise resource planning software that is accessible over the Internet. Organizations worldwide use cloud/on-premises ERP to integrate the core business processes needed to run a company in a single instance.</p>
+                      <br></br>
+                      
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div className="lightBg">
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg7} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>The Intelligent Enterprise</h2>
+                      <p className="font10 semiBold">An intelligent, sustainable enterprise is one that consistently applies advanced technologies and best practices within agile, integrated business processes. Run at your best with FX Consultancy that can help you grow more robust, more profitable, and more justifiable.</p>
+                      <br></br>
+                     
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+              </div>
+              <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
+                <CardWrapper>
+                  <CardContainer>
+                    <CardImg>
+                      <img src={ServiceImg8} alt="#" />
+                    </CardImg>
+                    <div style={{ padding: '0px 10px 0px 10px' }}>
+                      <h2 className="font20 extraBold" style={{ color: '#132D7B' }}>Cloud ERP</h2>
+                      <p className="font10 semiBold">Cloud ERP is enterprise resource planning software that is accessible over the Internet. Organizations worldwide use cloud/on-premises ERP to integrate the core business processes needed to run a company in a single instance.</p>
+                      <br></br>
+                    </div>
+                  </CardContainer>
+                </CardWrapper>
+
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
         <div className="lightBg">
           <div className="container">
             <Advertising className="flexSpaceCenter">
@@ -60,8 +266,8 @@ export default function Services() {
                 <h4 className="font15 semiBold">A few words about company</h4>
                 <h2 className="font40 extraBold">A Study of Creativity</h2>
                 <p className="font12">
-                At ERP TECH, we are passionate about empowering businesses through innovative technology solutions. Founded in [Year], our mission is to help companies of all sizes unlock their full potential by providing customized, end-to-end services in web development, mobile app development, cloud solutions, SAP integration, and digital marketing.            </p>
-                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
+                  At ERP TECH, we are passionate about empowering businesses through innovative technology solutions. Founded in [Year], our mission is to help companies of all sizes unlock their full potential by providing customized, end-to-end services in web development, mobile app development, cloud solutions, SAP integration, and digital marketing.            </p>
+                <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
                   <div style={{ width: "190px" }}>
                     <FullButton title="Get Started" action={() => alert("clicked")} />
                   </div>
@@ -100,6 +306,53 @@ export default function Services() {
 
 const Wrapper = styled.section`
   width: 100%;
+`;
+
+const BtnWrapper = styled.div`
+  max-width: 190px;
+  padding:0px 10px 0px 10px;
+  align-items:center;
+  @media (max-width: 960px) {
+    margin: 0 auto;
+  }
+`;
+
+const CardImg = styled.div`
+ width: 100%;
+  height: 15rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.25rem;
+  img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+`;
+
+const CardContainer = styled.div`
+  width: 100%;
+  cursor: default;
+  padding: 1.25rem;
+  border-radius: 0.25rem;
+  background-color:#fefefe ;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+     transform: translateY(-0.5rem);
+}
+
+
+`;
+
+const CardWrapper = styled.div`
+  --space: 1.25rem;
+  width: 90%;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
 `;
 const ServiceBoxRow = styled.div`
   @media (max-width: 860px) {
@@ -220,3 +473,13 @@ const AddImgWrapp4 = styled.div`
     -moz-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
   }
 `;
+
+
+
+
+
+
+
+
+
+

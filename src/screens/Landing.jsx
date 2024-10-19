@@ -8,12 +8,14 @@ import Blog from "../components/Sections/Blog";
 import Pricing from "../components/Sections/Pricing";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
+import AboutUs from "../components/Sections/AboutsUs";
 
 export default function Landing() {
   return (
     <>
       <TopNavbar />
       <Header />
+      <AboutUs/>
       <Services />
       <Projects />
       <Blog />
