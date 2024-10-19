@@ -259,7 +259,7 @@ export default function Services() {
 
 
 
-        <div className="lightBg">
+        <div className="darkBg whiteColor">
           <div className="container">
             <Advertising className="flexSpaceCenter">
               <AddLeft>

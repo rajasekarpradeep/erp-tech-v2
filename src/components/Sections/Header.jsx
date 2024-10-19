@@ -3,14 +3,14 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import HeaderImage from "../../assets/img/cont-1.jpg";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 
 export default function Header() {
   return (
     <Wrapper id="home" className="container flexSpaceCenter">
-      <LeftSide className="flexCenter">
+      <LeftSide className="flexCenter d">
         <div>
           <h1 className="extraBold font60">Welcome to ERP Tech!</h1>
           <AnimattedText>Your Gateway to Learning!</AnimattedText>
@@ -26,22 +26,11 @@ export default function Header() {
       <RightSide>
         <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
-          <QuoteWrapper className="flexCenter darkBg radius8">
-            <QuotesWrapper>
-              <QuotesIcon />
-            </QuotesWrapper>
-            <div>
-              <p className="font25 whiteColor">
-                <em>Learning Tech, Shaping the Future</em>
-              </p>
-              {/* <p className="font13 orangeColor textRight" style={{marginTop: '10px'}}>Ralph Waldo Emerson</p> */}
-            </div>
-          </QuoteWrapper>
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
         </ImageWrapper>
-        <GreyDiv className="lightBg"></GreyDiv>
+        <GreyDiv className="darkBg"></GreyDiv>
       </RightSide>
     </Wrapper>
   );
@@ -116,6 +105,11 @@ const ImageWrapper = styled.div`
   }
 `;
 const Img = styled.img`
+ width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.25rem;
   @media (max-width: 560px) {
     width: 80%;
     height: auto;

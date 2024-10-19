@@ -9,6 +9,7 @@ import Pricing from "../components/Sections/Pricing";
 import Contact from "../components/Sections/Contact";
 import Footer from "../components/Sections/Footer"
 import AboutUs from "../components/Sections/AboutsUs";
+import Industry from "../components/Sections/Industry";
 
 export default function Landing() {
   return (
@@ -18,7 +19,8 @@ export default function Landing() {
       <AboutUs/>
       <Services />
       <Projects />
-      <Blog />
+      <Industry/>
+      {/* <Blog /> */}
       <Pricing />
       <Contact />
       <Footer />
